@@ -96,7 +96,7 @@ export default function Dashboard({
               <span className="h-2 w-2 rounded-full bg-green-500"></span>
             </div>
             <h1 className="text-2xl font-bold font-sans text-slate-900 tracking-tight mt-2">
-              Welcome back, <span className="text-blue-600 font-semibold">{currentUser.name}</span>
+              Welcome to <span className="text-blue-600 font-semibold">Kalumbu Shop</span>
             </h1>
             <p className="text-slate-500 text-sm mt-1 sm:max-w-xl leading-relaxed">
               Here is your shop's simplified on-hand inventory, daily sales, and register cash metrics overview. Add stock, scan items, or process checkouts instantly.

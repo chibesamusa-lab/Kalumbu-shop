@@ -23,7 +23,8 @@ export default function Header({
     { id: "dashboard", label: "Dashboard" },
     { id: "inventory", label: "Inventory List" },
     { id: "sales", label: "POS Register" },
-    { id: "sales_history", label: "Sales History" }
+    { id: "sales_history", label: "Sales History" },
+    { id: "stocktake", label: "Stocktake" }
   ];
 
   return (
@@ -38,7 +39,7 @@ export default function Header({
             </div>
             <div>
               <span className="font-sans font-bold tracking-tight text-lg text-slate-900 block leading-tight">
-                Shop Manager
+                Kalumbu Shop
               </span>
               <span className="text-[10px] text-slate-400 font-mono uppercase tracking-wider">
                 Storefront & POS register

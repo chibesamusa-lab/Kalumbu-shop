@@ -6,6 +6,7 @@ import Dashboard from "./components/Dashboard";
 import InventoryList from "./components/InventoryList";
 import SalesConsole from "./components/SalesConsole";
 import SalesHistory from "./components/SalesHistory";
+import Stocktake from "./components/Stocktake";
 import BarcodeScanner from "./components/BarcodeScanner";
 import LoginPage from "./components/LoginPage";
 import { ShoppingBag } from "lucide-react";
@@ -148,6 +149,17 @@ export default function App() {
           <SalesHistory 
             sales={sales}
             products={products}
+          />
+        )}
+
+        {activeTab === "stocktake" && (
+          <Stocktake 
+            products={products}
+            onUpdateInventory={(updatedProducts) => handleUpdateProducts(updatedProducts, {
+              action: "Stocktake Application",
+              details: "Physical counts applied.",
+              category: "Inventory"
+            })}
           />
         )}
 

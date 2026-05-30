@@ -1,5 +1,5 @@
 {
-  "name": "Shop Inventory & POS",
+  "name": "Kalumbu Shop POS",
   "description": "A simplified single-shop inventory tracker, stock registrar, and direct storefront POS register.",
   "requestFramePermissions": ["camera"],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
